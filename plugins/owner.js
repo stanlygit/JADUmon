@@ -18,17 +18,17 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater JADUBot*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Stanly*
 
 *Bgm updation 💘*
 
-*Owner number wa.me/917034817401*
+*Owner number wa.me/919633833279*
 
-*githublink       https://github.com/Ameen-ahd/JADUmon*
+*githublink       https://github.com/stanlygit/v4*
 
-*audio commads    https://github.com/Ameen-ahd/JADUmon/tree/master/uploads*
+*audio commads    https://github.com/stanlygit/v4/tree/master/uploads*
 
-*sticker commads  https://github.com/Ameen-ahd/JADUmon/tree/master/stickers*
+*sticker commads  https://github.com/stanly/v4/tree/master/stickers*
 
 `}) 
 
